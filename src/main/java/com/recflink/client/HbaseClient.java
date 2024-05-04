@@ -125,12 +125,6 @@ public class HbaseClient {
         putData(tablename, rowkey, famliyname, column, String.valueOf(res));
     }
 
-    public static void main(String[] args) throws IOException {
-        List<Map.Entry> ps = HbaseClient.getRow("ps", "1");
-        ps.forEach(System.out::println);
-    }
-
-
 	/**
 	 * 取出表中所有的key
 	 * @param tableName
@@ -146,5 +140,10 @@ public class HbaseClient {
 		}
 		return keys;
 	}
+
+    public static void main(String[] args) throws IOException {
+        List<Map.Entry> ps = HbaseClient.getRow("ps", "1");
+        ps.forEach(System.out::println);
+    }
 
 }

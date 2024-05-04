@@ -27,10 +27,6 @@ dependencies {
     implementation 'org.apache.flink:flink-jdbc:1.6.1'
     implementation 'mysql:mysql-connector-java:8.0.15'
     implementation 'org.jetbrains:annotations:RELEASE'
-
-    // Quartz dependency
-    // Uncomment if needed
-    // implementation 'org.quartz-scheduler:quartz:2.3.0'
 }
 
 group 'com.demo'
