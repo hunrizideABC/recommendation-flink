@@ -1,0 +1,40 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Flink dependencies
+    implementation 'org.apache.flink:flink-connector-kafka_2.11:1.7.1'
+    implementation 'org.apache.flink:flink-java:1.7.1'
+    implementation 'org.apache.flink:flink-streaming-java_2.11:1.7.1'
+    implementation 'org.apache.flink:flink-clients_2.11:1.7.1'
+
+    // Logging dependencies
+    implementation 'org.slf4j:slf4j-api:1.7.21'
+    implementation 'org.slf4j:slf4j-log4j12:1.7.21'
+
+    // HBase dependency
+    implementation 'org.apache.hbase:hbase-client:1.2.12'
+    implementation 'org.apache.hbase:hbase-server:1.2.12'
+
+    // Redis dependencies
+    implementation 'redis.clients:jedis:3.0.1'
+    implementation 'org.apache.flink:flink-connector-redis_2.10:1.1.5'
+
+    // JDBC dependencies
+    implementation 'org.apache.flink:flink-jdbc:1.6.1'
+    implementation 'mysql:mysql-connector-java:8.0.15'
+    implementation 'org.jetbrains:annotations:RELEASE'
+
+    // Quartz dependency
+    // Uncomment if needed
+    // implementation 'org.quartz-scheduler:quartz:2.3.0'
+}
+
+group 'com.demo'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
