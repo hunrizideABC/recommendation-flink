@@ -4,7 +4,6 @@ from pyflink.table import BatchTableEnvironment, EnvironmentSettings
 from pyflink.table import DataTypes
 from pyflink.table.descriptors import Schema, OldCsv, FileSystem
 
-
 env_settings = EnvironmentSettings.new_instance().in_batch_mode().use_blink_planner().build()
 t_env = BatchTableEnvironment.create(environment_settings=env_settings)
 dir_word = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'word.csv')
