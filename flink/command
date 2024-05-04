@@ -1,5 +1,5 @@
-sudo docker cp ./recommendation-flink recommendation_jobmanager_1:/opt/flink
-sudo docker exec -ti recommendation_jobmanager_1 bash
-sudo docker-compose exec jobmanager ./bin/flink run -py /opt/examples/1-word_count.py
+sudo docker cp ./recommendation-flink flink_jobmanager_1:/opt/flink
+sudo docker exec -ti flink_jobmanager_1 bash
+sudo docker-compose exec jobmanager ./bin/flink run -py /opt/flink/recommendation-flink/flink/example/1_word_count/word_count.py
 
 sudo docker run -it -v /home/lighthouse/anaconda3/envs/py39/bin/python:/usr/bin/python recommendation_jobmanager_1 bash

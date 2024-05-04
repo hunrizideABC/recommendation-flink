@@ -2,8 +2,6 @@ version: '2.1'
 services:
   jobmanager:
     image: pyflink/playgrounds:1.13.0-rc2
-    volumes:
-      - ./example:/opt/example
     hostname: "jobmanager"
     expose:
       - "6123"
@@ -14,8 +12,6 @@ services:
       - JOB_MANAGER_RPC_ADDRESS=jobmanager
   taskmanager:
     image: pyflink/playgrounds:1.13.0-rc2
-    volumes:
-      - ./examples:/opt/examples
     expose:
       - "6121"
       - "6122"
