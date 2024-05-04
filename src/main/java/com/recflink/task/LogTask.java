@@ -11,8 +11,6 @@ import java.util.Properties;
 
 /**
  * 日志 -> Hbase
- *
- * @author XINZE
  */
 public class LogTask {
 

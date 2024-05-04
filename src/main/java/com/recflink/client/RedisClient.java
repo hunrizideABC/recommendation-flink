@@ -1,6 +1,5 @@
 package com.recflink.client;
 
-
 import com.recflink.util.Property;
 import redis.clients.jedis.Jedis;
 import java.util.ArrayList;

@@ -11,8 +11,6 @@ import java.util.Properties;
 
 /**
  * 用户画像 -> Hbase
- *
- * @author XINZE
  */
 public class UserPortraitTask {
 

@@ -3,7 +3,7 @@ package com.recflink.util;
 import com.recflink.domain.LogEntity;
 
 /**
- * @author XINZE
+ *
  */
 public class LogToEntity {
 

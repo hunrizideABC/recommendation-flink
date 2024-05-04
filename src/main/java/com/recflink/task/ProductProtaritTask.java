@@ -11,8 +11,6 @@ import java.util.Properties;
 
 /**
  * 产品画像 -> Hbase
- *
- * @author XINZE
  */
 public class ProductProtaritTask {
 

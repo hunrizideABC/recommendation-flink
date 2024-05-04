@@ -10,7 +10,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
- * @author XINZE
+ *
  */
 public class TopNFunction extends
         ProcessAllWindowFunction<TopProductEntity, RankProductEntity,TimeWindow>{

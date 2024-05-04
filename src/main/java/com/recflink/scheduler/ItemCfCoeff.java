@@ -13,7 +13,6 @@ import java.util.Map;
  *      *           abs( i ∩ j)
  *      *      w = ——————————————
  *      *           sqrt(i || j)
- * @author XINZE
  */
 public class ItemCfCoeff {
 

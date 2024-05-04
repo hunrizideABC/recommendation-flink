@@ -9,9 +9,6 @@ import org.apache.flink.api.common.functions.MapFunction;
 
 import java.sql.ResultSet;
 
-/**
- * @author XINZE
- */
 public class ProductPortraitMapFunction implements MapFunction<String, String> {
     @Override
     public String map(String s) throws Exception {

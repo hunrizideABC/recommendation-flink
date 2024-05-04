@@ -1,8 +1,5 @@
 package com.recflink.domain;
 
-/**
- * @author XINZE
- */
 public class LogEntity {
 
     private int userId;

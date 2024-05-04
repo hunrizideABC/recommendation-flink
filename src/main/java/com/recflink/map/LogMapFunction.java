@@ -5,9 +5,6 @@ import com.recflink.domain.LogEntity;
 import com.recflink.util.LogToEntity;
 import org.apache.flink.api.common.functions.MapFunction;
 
-/**
- * @author XINZE
- */
 public class LogMapFunction implements MapFunction<String, LogEntity> {
 
     @Override

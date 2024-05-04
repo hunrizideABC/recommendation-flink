@@ -26,8 +26,6 @@ import java.util.Properties;
 
 /**
  * 热门商品 -> redis
- *
- * @author XINZE
  */
 public class TopProductTask {
 
